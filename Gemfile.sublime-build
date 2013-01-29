@@ -1,0 +1,10 @@
+{
+	"cmd": ["bundle"],
+	"file_regex": "# ([A-Za-z:0-9_./ ]+rb):([0-9]+)",
+	"selector": "source.ruby.gemfile",
+
+	"windows":
+	{
+		"cmd": ["bundle.bat"]
+	}
+}
